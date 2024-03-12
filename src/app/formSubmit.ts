@@ -4,7 +4,7 @@ import { schema } from "./formSchema";
 
 export type FormStateT = {
   message: string;
-  fields: Record<string, string>;
+  fields?: Record<string, string>;
   issues?: string[];
 };
 
